@@ -8,7 +8,7 @@
           <div
             class="bg-cover"
             style="
-              background-image: url(/static/images/food4.jpg);
+              background-image: url(/vue/dist/static/images/food4.jpg);
               height: 300px;
             "
           ></div>
