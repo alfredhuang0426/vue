@@ -1,0 +1,78 @@
+@mixin pad {
+    @media(min-width: 768px) {
+        @content
+    }
+}
+
+.carousel-header-item {
+    height: 600px;
+}
+
+.bg-cover {
+    background-size: cover;
+    background-position: center center;
+    &-top{
+        background-size: cover;
+        background-position: center 30%;
+    }
+}
+
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.bg-md-light{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(/static/images/food7.jpg);
+    @include pad{
+        background-image: url(/static/images/food7.jpg);
+    }
+}
+
+.about-us-text{
+    line-height: 35px;
+}
+
+
+.dashboardlist-group-item.active{
+    background-color: black !important;
+}
+
+.page-min-height{
+    min-height: calc(100vh - 72px - 72px);
+}
+
+.picture{
+    height:200px;
+    &-small{
+        width: 100px;
+        height:100px;
+    }
+    &-big{
+        height:400px;
+    }
+}
+
+.cart{
+    position: relative;
+    &-number{
+        position: absolute;
+        right: -15px;
+        top:-10px;
+    }
+}
+
+
+@media(min-width: 768px) {
+    .text-md-dark {
+        color: #333;
+    }
+    .sidebar{
+        display: block;
+        position:fixed;
+        top:0px;
+        bottom:0px;
+        padding-top:56px;
+        z-index:10;
+    }
+}
