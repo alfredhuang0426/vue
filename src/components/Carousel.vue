@@ -17,7 +17,7 @@
       <div class="carousel-inner">
         <div
           class="carousel-item carousel-header-item bg-cover active"
-          style="background-image: url(/static/images/food1.jpg)"
+          style="background-image: url(/vue/dist/static/images/food1.jpg)"
         >
           <div class="carousel-caption d-none d-md-block">
             <h2>Indian Curry</h2>
@@ -26,7 +26,7 @@
         </div>
         <div
           class="carousel-item carousel-header-item bg-cover-top"
-          style="background-image: url(/static/images/food2.jpg)"
+          style="background-image: url(/vue/dist/static/images/food2.jpg)"
         >
           <div class="carousel-caption d-none d-md-block">
             <h2>Samosa</h2>
@@ -35,7 +35,7 @@
         </div>
         <div
           class="carousel-item carousel-header-item bg-cover-top"
-          style="background-image: url(/static/images/food3.jpg)"
+          style="background-image: url(/vue/dist/static/images/food3.jpg)"
         >
           <div class="carousel-caption d-none d-md-block">
             <h2>Naan</h2>

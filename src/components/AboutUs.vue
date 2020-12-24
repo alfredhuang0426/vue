@@ -21,7 +21,7 @@
           <div
             class="bg-cover"
             style="
-              background-image: url(/static/images/food5.jpg);
+              background-image: url(/vue/dist/static/images/food5.jpg);
               height: 300px;
             "
           ></div>
@@ -35,7 +35,7 @@
           <div
             class="bg-cover"
             style="
-              background-image: url(/static/images/food6.jpg);
+              background-image: url(/vue/dist/static/images/food6.jpg);
               height: 300px;
             "
           ></div>
